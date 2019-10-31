@@ -1,3 +1,8 @@
+import $ from 'jquery';
+import index from './index.css';
+
+
+
 const store = {
   items: [
     { id: cuid(), name: 'apples', checked: false },
